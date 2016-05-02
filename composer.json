@@ -1,0 +1,21 @@
+{
+    "name": "raymondwilkinson/sweetalert-laravel",
+    "description": "Simple way to flash sweetalert messages to the screen for laravel.",
+    "license": "MIT",
+    "keywords": ["laravel", "sweetalert", "flash messages", "alerts"],
+    "authors": [
+        {
+            "name": "Raymond Wilkinson",
+            "email": "eleray13@hotmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "illuminate/support": "^5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "RaymondWilkinson\\SweetalertLaravel\\": "src/"
+        }
+    }
+}
