@@ -9,13 +9,13 @@
             "email": "eleray13@hotmail.com"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "require": {
         "illuminate/support": "^5.2"
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "v1"
+            "dev-master": "v1-dev"
         }
     },
     "autoload": {
