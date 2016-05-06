@@ -9,9 +9,14 @@
             "email": "eleray13@hotmail.com"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "require": {
         "illuminate/support": "^5.2"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1-dev"
+        }
     },
     "autoload": {
         "psr-4": {
