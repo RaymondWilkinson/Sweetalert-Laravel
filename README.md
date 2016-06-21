@@ -39,7 +39,7 @@ Add the JS script before close your </body> tag.
 Include the alerts view to your master view. Add this code right after set the JS script file.
 
 ````
-@include('Alerts::alerts')
+@include('Alerts::sweetalerts')
 ````
 
 ###Usage

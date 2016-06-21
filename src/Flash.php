@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http;
+namespace RaymondWilkinson\SweetalertLaravel;
 
 use Illuminate\Support\Facades\Session;
 
