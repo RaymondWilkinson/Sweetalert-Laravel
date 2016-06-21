@@ -2,8 +2,6 @@
 
 namespace RaymondWilkinson\SweetalertLaravel;
 
-use Illuminate\Support\Facades\Session;
-
 class Flash
 {
     /**
@@ -14,7 +12,7 @@ class Flash
      */
     public function create($title, $message, $level, $key = 'flash_message')
     {
-        Session::flash($key, [
+        session()->flash($key, [
             'title'     => $title,
             'message'   => $message,
             'level'     => $level
