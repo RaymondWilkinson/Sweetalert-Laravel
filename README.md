@@ -33,7 +33,7 @@ Then in your master view add those styles and scripts. Put this style between th
 Add the JS script before close your </body> tag.
 
 ````
-<script src="js/sweetalert.js"></script>
+<script src="js/sweetalert.min.js"></script>
 ````
 
 Include the alerts view to your master view. Add this code right after set the JS script file.
